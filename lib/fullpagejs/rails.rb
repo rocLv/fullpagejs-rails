@@ -1,8 +1,7 @@
 require "fullpagejs/rails/version"
+require "fullpagejs/rails/engine"
 
 module Fullpagejs
   module Rails
-    class Engine < ::Rails::Engine
-    end
   end
 end

@@ -1,8 +1,6 @@
 # Fullpagejs::Rails
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/fullpagejs/rails`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This is fullpagejs' wrap. For more information, please forward to [fullpagejs](https://github.com/alvarotrigo/fullpage.js)
 
 ## Installation
 
@@ -22,8 +20,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add this line to your application's app/assets/stylesheets/application.scss file:
 
+```scss
+@import 'fullpage';
+```
+
+Add this line to your applications's app/assets/javascripts/application.js file:
+
+```javascript
+//= require fullpage
+```
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
