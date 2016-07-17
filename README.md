@@ -23,13 +23,21 @@ Or install it yourself as:
 Add this line to your application's app/assets/stylesheets/application.scss file:
 
 ```scss
-@import 'fullpage';
+@import 'jquery.fullpage';
+```
+Or add this line to your applications's app/assets/stylesheets/application.css
+file:
+
+```css
+ *= require jquery.fullpage
 ```
 
 Add this line to your applications's app/assets/javascripts/application.js file:
 
 ```javascript
-//= require fullpage
+//= require jquery
+//= require jquery_ujs
+//= require jquery.fullpage
 ```
 ## Development
 
